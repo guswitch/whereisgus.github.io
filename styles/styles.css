@@ -9,10 +9,16 @@ body {
 
 .social-button {
     padding: 15px;
-    background-color: #ebebeb;
+    background-color: #fff;
     border: 2px solid #000074ff;
     color: #000074ff;
     font-weight: 700;
     min-width: 300px !important;
     text-align: center;
+    transition: ease-in-out 0.2s;
+}
+
+.social-button:hover {
+    background-color: #000074ff;
+    color: #fff;
 }
